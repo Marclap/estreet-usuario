@@ -23,6 +23,10 @@ export default function SeleccionarServicio({
                                             onChange={handleInputChange}
                                             value="Policia Nacional"
                                         />
+                                        <img
+                                            className="h-12 w-12 rounded-full object-cover"
+                                            src={'/Policia nacional.jpg'}
+                                        />
                                         <span>Policia Nacional</span>
                                     </label>
                                 </li>
@@ -34,6 +38,10 @@ export default function SeleccionarServicio({
                                             name="ente"
                                             onChange={handleInputChange}
                                             value="Bomberos Pereira"
+                                        />
+                                        <img
+                                            className="h-12 w-12 rounded-full object-cover"
+                                            src={'/Bomberos Pereira.jpg'}
                                         />
                                         <span>Bomberos Pereira</span>
                                     </label>
@@ -47,6 +55,12 @@ export default function SeleccionarServicio({
                                             onChange={handleInputChange}
                                             value="Defensa Civil Colombiana"
                                         />
+                                        <img
+                                            className="h-12 w-12 rounded-full object-cover"
+                                            src={
+                                                '/Defensa Civil Colombiana.jpg'
+                                            }
+                                        />
                                         <span>Defensa Civil Colombiana</span>
                                     </label>
                                 </li>
@@ -59,6 +73,10 @@ export default function SeleccionarServicio({
                                             onChange={handleInputChange}
                                             value="Tránsito Pereira"
                                         />
+                                        <img
+                                            className="h-12 w-12 rounded-full object-cover"
+                                            src={'/Tránsito Pereira.jpg'}
+                                        />
                                         <span>Tránsito Pereira</span>
                                     </label>
                                 </li>
@@ -70,6 +88,12 @@ export default function SeleccionarServicio({
                                             name="ente"
                                             onChange={handleInputChange}
                                             value="Servicio Ambulancias S.A.P"
+                                        />
+                                        <img
+                                            className="h-12 w-12 rounded-full object-cover"
+                                            src={
+                                                '/Servicio Ambulancias S.A.P.jpg'
+                                            }
                                         />
                                         <span>Servicio Ambulancias S.A.P</span>
                                     </label>

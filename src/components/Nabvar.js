@@ -15,9 +15,6 @@ export default function Nabvar() {
                             <Link href="/login">
                                 <a className="elementosSideBar">Entrar</a>
                             </Link>
-                            <Link href="/consejos">
-                                <a className="elementosSideBar">Consejos</a>
-                            </Link>
                         </div>
                     </div>
                     <div className="flex-grow">

@@ -46,58 +46,73 @@ export default function login() {
                                 <div className="logo">eStreet</div>
                             </a>
                         </Link>
-                        <div className="mt-8 border-t border-imperialRed">
-                            <Link href="/consejos">
-                                <a className="elementosSideBar">Consejos</a>
-                            </Link>
-                        </div>
                     </div>
-                    <div
-                        className="flex items-center w-full"
-                        style={{ backgroundImage: 'url("../background.png")' }}
-                    >
-                        <form className="w-full" onSubmit={handleEnvio}>
-                            <div className="flex-grow">
-                                <div className="contenedorInputs">
-                                    <div className="contenedorInput">
-                                        <label className="label">Nombre:</label>
-                                        <input
-                                            type="text"
-                                            className="input"
-                                            placeholder="Nombre"
-                                            name="nombre"
-                                            onChange={handleChange}
-                                            required
-                                        />
+                    <div className="flex items-center w-full">
+                        <div className="grid justify-items-center w-full">
+                            <h2 className="logo">Bienvenido a eStreet</h2>
+                            <p className="text-richBlackFogra w-9/12 text-center">
+                                Aquí como ciudadano de la ciudad de Pereira
+                                podrás reportar siniestros que ocurran en la
+                                ciudad de Pereira, para así poder optar que un
+                                ente estatal se encargue de este y lo pueda
+                                resolver.
+                            </p>
+                            <p className="text-richBlackFogra w-9/12 text-center">
+                                A continuación deberás agregar los datos mínimos
+                                requeridos para empezar con tu reporte.
+                            </p>
+                            <form className="w-full" onSubmit={handleEnvio}>
+                                <div className="flex-grow">
+                                    <div className="contenedorInputs">
+                                        <div className="contenedorInput">
+                                            <label className="label">
+                                                Nombre:
+                                            </label>
+                                            <input
+                                                type="text"
+                                                className="input"
+                                                placeholder="Nombre"
+                                                name="nombre"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="contenedorInput">
+                                            <label className="label">
+                                                Email:
+                                            </label>
+                                            <input
+                                                type="email"
+                                                className="input"
+                                                placeholder="Email"
+                                                name="correo"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
+                                        <div className="contenedorInput">
+                                            <label className="label">
+                                                Cédula:
+                                            </label>
+                                            <input
+                                                type="number"
+                                                className="input"
+                                                placeholder="Cédula"
+                                                name="cedula"
+                                                onChange={handleChange}
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                    <div className="contenedorInput">
-                                        <label className="label">Email:</label>
-                                        <input
-                                            type="email"
-                                            className="input"
-                                            placeholder="Email"
-                                            name="correo"
-                                            onChange={handleChange}
-                                            required
-                                        />
-                                    </div>
-                                    <div className="contenedorInput">
-                                        <label className="label">Cédula:</label>
-                                        <input
-                                            type="number"
-                                            className="input"
-                                            placeholder="Cédula"
-                                            name="cedula"
-                                            onChange={handleChange}
-                                            required
-                                        />
+                                    <div className="contenedorBoton">
+                                        <button className="btn">Entrar</button>
                                     </div>
                                 </div>
-                                <div className="contenedorBoton">
-                                    <button className="btn">Entrar</button>
-                                </div>
+                            </form>
+                            <div className="absolute bottom-0 right-0">
+                                <img src="/pereira-capital-del-eje-logo.png" />
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

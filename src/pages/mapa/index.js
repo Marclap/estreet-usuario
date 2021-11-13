@@ -20,11 +20,6 @@ export default function mapa({ id }) {
                                 <div className="logo">eStreet</div>
                             </a>
                         </Link>
-                        <div className="mt-8 border-t border-imperialRed">
-                            <Link href="/consejos">
-                                <a className="elementosSideBar">Consejos</a>
-                            </Link>
-                        </div>
                     </div>
                     <div className="flex-grow">
                         <main>
